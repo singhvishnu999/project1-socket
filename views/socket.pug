@@ -1,0 +1,13 @@
+extends base.pug
+block style 
+    style 
+        include ../public/CSS/style.css
+        include ../public/CSS/socket.css
+    script(src="/socket.io/socket.io.js")
+block content  
+    #messages
+    form#form(action="")
+      input#input(autocomplete="off")
+      button.btn Send
+      script 
+        include ../publuc/CSS/socket.js

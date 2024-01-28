@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title My Site - #{title}
+    block style 
+        style
+            include ../public/CSS/style.css
+        
+  body
+    nav
+        ul
+            li: a(href="/home") Home
+            li: a(href="/login") Login
+            li: a(href="/contact") Create Account
+            li: a(href="/help") Help
+    block content
+    block footer

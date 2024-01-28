@@ -1,0 +1,16 @@
+extends base.pug
+block style 
+    style 
+        include ../public/CSS/style.css
+        include ../public/CSS/styleform.css
+
+block content    
+    form(action="/login", method="POST", class="myform")
+        h1 delete
+        <input type="phone" class= “myInput” name="phone" placeholder="Enter your phone number..">
+        <input type="email" class= “myInput” name="email" placeholder="Enter your email..">
+        button.btn(type="submit", name="submit") delete
+        
+block footer 
+   | enter a valid login details !
+   

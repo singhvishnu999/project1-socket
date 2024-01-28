@@ -1,0 +1,28 @@
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 12px;
+    font-size: 100px;
+}
+
+input {
+    width: 70vw;
+    height : 7vh;
+    padding: 2px;
+    margin: 2px;
+}
+
+.myInput{
+    width: 50px;
+}
+.btn{
+    padding :10px;
+    margin : 10px;
+}

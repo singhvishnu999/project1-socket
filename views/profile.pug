@@ -1,0 +1,18 @@
+extends base.pug
+block style 
+    style 
+        include ../public/CSS/style.css
+        include ../public/CSS/profile.css
+block content 
+  .card
+    img(src='../public/CSS/img.png', alt="profile Pic", style="width:100%")
+    h1 #{name}
+    p.title loged in user
+    p MMDU University
+    p #{phone}
+    p #{email}
+    p #{address}
+      
+        button 
+          a(href ="/socket") Chat
+
